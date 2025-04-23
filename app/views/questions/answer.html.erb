@@ -1,0 +1,15 @@
+<div class="container my-5">
+  <h1 class="mb-4">Stupid Coaching</h1>
+
+  <blockquote class="blockquote ps-3 border-start border-4 border-secondary">
+    <p class="mb-0"><%= @question %></p>
+    <footer class="blockquote-footer pt-3">You</footer>
+  </blockquote>
+
+  <div class="bg-warning bg-opacity-10 border-start border-4 border-warning ps-3 py-2 my-4">
+    <strong><%= @response %></strong>
+    <footer class="blockquote-footer mt-1">Your coach</footer>
+  </div>
+
+  <%= link_to 'Ask a new question', 'ask'%>
+</div>
